@@ -23,30 +23,30 @@
 
 1. Home Page : 
   - Getting Information from the user, information consists of :
-    -- The main category that the user wants to take the quizz with.
-    -- Number of questions.
-    -- The diffculty of the quizz.
+    a. The main category that the user wants to take the quizz with.
+    b. Number of questions.
+    c. The diffculty of the quizz.
   - Saving the choosen information to the local storage to pass it for the next page.
 
 2. Quiz App Page :
   - After receiving the choosen information from the user, it would be assinged to the page dynamically:
-    -- The name of the choosen category.
-    -- The number of questions.
+    a. The name of the choosen category.
+    b. The number of questions.
   - Bullets would be created upon the number of questions number.
   - Count down timer will start and the time applied is taking from the user's choosen diffculty.
-   -- If the time ended before finishing the questions, the user will be redirected to the results page.
+   a. If the time ended before finishing the questions, the user will be redirected to the results page.
   - Questions will apper in the page from the choosen catergory
   - When submitting the answer: 
-    -- The user moves to the next question.
-    -- The use moves to the next bullet and the background color of the bullet will change to let the user know in which question he is.
-    -- The next question will be insertied in the page randomlly.
+    a. The user moves to the next question.
+    b. The use moves to the next bullet and the background color of the bullet will change to let the user know in which question he is.
+    c. The next question will be insertied in the page randomlly.
  
 3. Result Page :
   - After submitting the final question, the user will be directed to the result page.
   - Result consists of 3 different messages:
-    -- If all answer were correct then the message would be -> Perfect 
-    -- If the user answered more than the half of the question and less than the total number then the message would be -> Good.
-    -- If the user answered less than the half of the question then the message would be -> Bad.
+    a. If all answer were correct then the message would be -> Perfect 
+    b. If the user answered more than the half of the question and less than the total number then the message would be -> Good.
+    c. If the user answered less than the half of the question then the message would be -> Bad.
   - A special meesage would apper to the user depends on the choosen category.
   - The user can retake the quiz when clicking on the (Retake quiz) button.
 
