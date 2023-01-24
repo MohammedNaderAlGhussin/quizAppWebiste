@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Why We Use <br> Element?",
+    "answer_1": "To Make Text Bold",
+    "answer_2": "To Make Text Italic",
+    "answer_3": "To Add Breakline",
+    "answer_4": "To Create Horizontal Line",
+    "right_answer": "To Add Breakline"
+  },
+  {
+    "title": "Is <img> Element Has Attribute href?",
+    "answer_1": "Yes",
+    "answer_2": "No Its For Anchor Tag",
+    "answer_3": "All Elements Has This Attribute",
+    "answer_4": "Answer 1 And 3 Are Right",
+    "right_answer": "No Its For Anchor Tag"
+  },
+  {
+    "title": "How Can We Make Element Text Bold?",
+    "answer_1": "Putting It Inside <b> Tag",
+    "answer_2": "Putting It Inside <strong> Tag",
+    "answer_3": "Customizing It With Font-Weight Property In CSS",
+    "answer_4": "All Answers Are Correct",
+    "right_answer": "All Answers Are Correct"
+  },
+  {
+    "title": "What Is The Right Hierarchy For Creating Part Of Page?",
+    "answer_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+    "answer_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+    "answer_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+    "answer_4": "All Solutions Are Wrong",
+    "right_answer": "All Solutions Are Wrong"
+  },
+  {
+    "title": "How Can We Include External Page Inside Our HTML Page?",
+    "answer_1": "By Using Include in HTML",
+    "answer_2": "By Using Load In HTML",
+    "answer_3": "By Using iFrame Tag",
+    "answer_4": "All Solutions Is Wrong",
+    "right_answer": "By Using iFrame Tag"
+  },
+  {
+    "title": "What Is The Tag That Not Exists in HTML?",
+    "answer_1": "<object>",
+    "answer_2": "<basefont>",
+    "answer_3": "<abbr>",
+    "answer_4": "All Tags Exist in HTML",
+    "right_answer": "All Tags Exist in HTML"
+  },
+  {
+    "title": "How We Specify Document Type Of HTML5 Page?",
+    "answer_1": "<DOCTYPE html>",
+    "answer_2": "<DOCTYPE html5>",
+    "answer_3": "<!DOCTYPE html5>",
+    "answer_4": "<!DOCTYPE html>",
+    "right_answer": "<!DOCTYPE html>"
+  },
+  {
+    "title": "What Is The Element Thats Not Exists in HTML5 Semantics?",
+    "answer_1": "<article>",
+    "answer_2": "<section>",
+    "answer_3": "<blockquote>",
+    "answer_4": "<aside>",
+    "right_answer": "<blockquote>"
+  },
+  {
+    "title": "In HTML Can We Use This Way To Add Attributes?",
+    "answer_1": "<div class='class-name'>",
+    "answer_2": "<div class=class-name>",
+    "answer_3": "<div class=\"class-name\">",
+    "answer_4": "All Are Correct",
+    "right_answer": "All Are Correct"
+  },
+  {
+    "title": "What does HTML stand for?",
+    "answer_1": "High Trace Mahine Learning",
+    "answer_2": "Home Tool Markup Language",
+    "answer_3": "Hyper Text Markup Language",
+    "answer_4": "Hyperlinks and Text Markup Language",
+    "right_answer": "Hyper Text Markup Language"
+  },
+  {
+    "title": "Choose the correct HTML element for the largest heading:",
+    "answer_1": "<h2>",
+    "answer_2": "<head>",
+    "answer_3": "<h6>",
+    "answer_4": "<heading>",
+    "right_answer": "<h2>"
+  },
+  {
+    "title": "Choose the correct HTML element to define important text?",
+    "answer_1": "<strong>",
+    "answer_2": "<i>",
+    "answer_3": "<b>",
+    "answer_4": "<important>",
+    "right_answer": "<strong>"
+  },
+  {
+    "title": "What is the correct HTML for making a checkbox?",
+    "answer_1": "<checkbox>",
+    "answer_2": "<input type='checkbox'>",
+    "answer_3": "<input type='check'>",
+    "answer_4": "<check>",
+    "right_answer": "<input type='checkbox'>"
+  },
+  {
+    "title": "What is the correct HTML for inserting an image?",
+    "answer_1": "<img src='image.gif' alt='MyImage'>",
+    "answer_2": "<image src='image.gif' alt='MyImage'>",
+    "answer_3": "<img href='image.gif' alt='MyImage'>",
+    "answer_4": "<img alt='MyImage'>image.gif</img>",
+    "right_answer": " <img src='image.gif' alt='MyImage'>"
+  },
+  {
+    "title": "In HTML, which attribute is used to specify that an input field must be filled out?",
+    "answer_1": "placeholder",
+    "answer_2": "required",
+    "answer_3": "validate",
+    "answer_4": "formvalidate",
+    "right_answer": "required"
+  }
+]

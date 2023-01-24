@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="icon" type="image/x-icon" href="./images/quizz4.jpg" />
+    <title>Quizz Website</title>
+  </head>
+  <body class="">
+    <div class="bg-bgColor p-4 m-4">
+      <div class="bg-white p-3">
+        <h2
+          class="text-mainColor font-bold text-lg xl:text-3xl text-center mb-3"
+        >
+          Welcome To Our Quizz Website
+        </h2>
+        <p class="font-bold text-base xl:text-lg mb-3">
+          Before we jump to the quizz here is some information you should be
+          aware of:
+        </p>
+        <span class="block text-[#777] xl:text-[17px] text-sm pl-3">
+          This quizz consists from 3 different categories, you have the ability
+          to select the category you want from the down form.<br />
+          You have the ability to choose the number of questions as well as the
+          diffculty of the quizz, The diffculty of the quizz describes the time
+          spent taking the quizz.
+        </span>
+      </div>
+      <form class="mx-auto p-4 bg-white mt-4 flex flex-col">
+        <div class="w-full border-b-[1px] border-[#dfdfdf] py-5">
+          <label class="dropdown-label" for="categories">
+            Choose Your Quiz:</label
+          >
+          <select id="categories" name="" class="dropdown">
+            <option value="html_questions.json">HTML</option>
+            <option value="lol_questions.json">League of Legends</option>
+            <option value="nader_questions.json">Nader's</option>
+          </select>
+        </div>
+        <div class="w-full border-b-[1px] border-[#dfdfdf] py-5">
+          <label class="dropdown-label" for="ques-count">
+            Choose The Number Of Questions:</label
+          >
+          <select id="ques-count" name="" class="dropdown">
+            <option value="5">5 Questions</option>
+            <option value="10">10 Questions</option>
+            <option value="15">15 Questions</option>
+          </select>
+        </div>
+        <div class="w-full py-5">
+          <label class="dropdown-label" for="diffculty">
+            Choose The Diffculty Of The Quiz:</label
+          >
+          <select id="diffculty" name="" class="dropdown">
+            <option value="7">Easy: 7 minutes</option>
+            <option value="5">Normal: 5 minutes</option>
+            <option value="3">Hard: 3 minutes</option>
+          </select>
+        </div>
+        <input
+          type="submit"
+          value="Go To Quiz"
+          class="bg-mainColor w-full font-bold text-lg hover:opacity-90 text-white p-2 rounded-[7px] mx-auto mt-2 block cursor-pointer"
+        />
+      </form>
+    </div>
+    <!-- <script src="./quiz.js" type="module"></script> -->
+    <script src="./main.js"></script>
+  </body>
+</html>

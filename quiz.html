@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- Customizing The Website Icon -->
+    <link rel="icon" type="image/x-icon" href="./images/quizz4.jpg" />
+    <title>Quizz Website</title>
+  </head>
+  <body>
+    <!-- Quiz Container -->
+    <div class="p-5 m-5 bg-bgColor">
+      <!-- Quiz Info -->
+      <section class="flex flex-col md:flex-row gap-2 bg-white p-5">
+        <div class="flex-1">
+          category:<span class="pl-1 font-bold category">HTML</span>
+        </div>
+        <div class="flex-1 md:text-right">
+          Questions Count:<span class="pl-1 font-bold count">10</span>
+        </div>
+      </section>
+      <!-- Quiz Area -->
+      <section
+        class="quiz-area bg-white p-5 mt-5 font-bold text-lg md:text-3xl"
+      ></section>
+      <!-- Asnwers Area -->
+      <section class="answers-area bg-white p-5 pt-0"></section>
+      <!-- Submit Btn -->
+      <button class="submit-btn">Submit Answer</button>
+      <!-- Bulltes & timer -->
+      <section
+        class="bullet-timer border-t-[1px] border-[#dfdfdf] p-5 bg-white flex flex-col gap-3 md:gap-0 md:flex-row"
+      >
+        <div class="bullets-container flex-1 flex flex-wrap gap-2"></div>
+        <div class="count-down text-right"></div>
+      </section>
+      <div class="reults-container"></div>
+    </div>
+    <script src="./quiz.js"></script>
+  </body>
+</html>

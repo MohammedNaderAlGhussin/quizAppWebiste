@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dropdown-label {
+    @apply block text-mainColor font-bold text-lg mb-2;
+  }
+  .dropdown {
+    @apply bg-gray-50 border border-gray-300 text-lg text-gray-900 rounded-lg focus:ring-mainColor focus:border-mainColor block w-full p-2.5;
+  }
+  .answer {
+    @apply bg-radioColor p-5 border-b-[1px] border-[#dfdfdf];
+  }
+  .label-answer {
+    @apply text-[#777] text-[17px] ml-2 cursor-pointer font-bold relative top-[-1px];
+  }
+  .correct-answer {
+    @apply bg-[#009688] text-white;
+  }
+  .wrong-answer {
+    @apply bg-[#dc0a0a] text-white;
+  }
+  .bullet {
+    @apply w-5 h-5 rounded-full bg-bgColor;
+  }
+  .on {
+    @apply bg-mainColor;
+  }
+  .submit-btn {
+    @apply bg-mainColor text-white my-5 block w-full p-3 hover:opacity-90 border-none font-bold text-lg cursor-pointer rounded-[6px];
+  }
+  .bad {
+    @apply font-bold text-[#dc0a0a];
+  }
+  .good {
+    @apply font-bold text-[#009688];
+  }
+  .perfect {
+    @apply font-bold text-mainColor;
+  }
+  .result {
+    @apply bg-white p-5 mt-5 flex flex-col items-start justify-start md:text-2xl;
+  }
+  .trash {
+    @apply bg-[#dc0a0a] text-white px-2 py-1 rounded-[7px] relative top-[10px] hover:opacity-90;
+  }
+  .restart {
+    @apply bg-mainColor w-full block p-3 font-bold rounded-[7px] md:text-2xl text-white mt-10 hover:opacity-95;
+  }
+}
+
+@layer utilities {
+  input[type="Radio"]:checked + label {
+    color: #0075ff;
+  }
+}
